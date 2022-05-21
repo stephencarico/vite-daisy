@@ -1,7 +1,12 @@
 <script setup></script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl font-bold underline text-white mb-4">Hello world!</h1>
+  <div class="avatar">
+    <div class="w-24 rounded">
+      <img src="https://api.lorem.space/image/face?hash=92048" />
+    </div>
+  </div>
 </template>
 
 <style>
